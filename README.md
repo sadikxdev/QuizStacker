@@ -29,8 +29,6 @@ QuizStacker is a fun, interactive quiz-based web application designed to test kn
 - **Version Control**: Git + GitHub
 ---
 
----
-
 ## 📦 Getting Started
 
 ### Prerequisites

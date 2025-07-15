@@ -2,7 +2,7 @@
 
 QuizStacker is a fun, interactive quiz-based web application designed to test knowledge, improve learning, and make quizzes more engaging. Whether you're a student, developer, or just someone who loves trivia, QuizStacker makes it easy and enjoyable to stack up your knowledge!
 
-![QuizStacker Banner](./assets/quizstacker-banner.png) <!-- Optional image -->
+![QuizStacker Banner](./assets/LogoOG.png) <!-- Optional image -->
 
 ---
 

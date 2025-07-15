@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/QuizStacker/static/css/main.53270d9d.css",
+    "main.js": "/QuizStacker/static/js/main.50b21c6a.js",
+    "static/js/453.421382ab.chunk.js": "/QuizStacker/static/js/453.421382ab.chunk.js",
+    "static/media/TAN KULTURE-DISPLAY.otf": "/QuizStacker/static/media/TAN KULTURE-DISPLAY.98c4d44175af05fdc79b.otf",
+    "index.html": "/QuizStacker/index.html",
+    "main.53270d9d.css.map": "/QuizStacker/static/css/main.53270d9d.css.map",
+    "main.50b21c6a.js.map": "/QuizStacker/static/js/main.50b21c6a.js.map",
+    "453.421382ab.chunk.js.map": "/QuizStacker/static/js/453.421382ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53270d9d.css",
+    "static/js/main.50b21c6a.js"
+  ]
+}

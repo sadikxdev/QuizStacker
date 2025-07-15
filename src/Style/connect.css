@@ -1,0 +1,129 @@
+#connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.connect h1 {
+    font-size: 45px;
+    font-size: clamp(2rem, 10vw, 100px);
+    overflow-wrap: break-word;
+    cursor: pointer;
+    font-family: 'Familjen Grotesk';
+    font-weight: 900;
+    font-size: 100px;
+    user-select: none;
+    color: #ddd9d2;
+}
+
+
+.connect h2 {
+    font-family: 'Familjen Grotesk';
+    color: #ddd9d2;
+    font-weight: 500;
+    font-size: 20px;
+    user-select: none;
+    margin-top: -30px;
+}
+
+.collab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    color: #ddd9d2;
+    user-select: none;
+}
+
+
+
+.collaborate p {
+    text-align: center;
+}
+
+.collab a {
+    text-decoration: none;
+    color: #ddd9d2;
+}
+
+.collabATC{
+
+    font-family: 'Edu NSW ACT Cursive';
+}
+
+.signoff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Edu NSW ACT Cursive';
+    color: #ddd9d2;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    user-select: none;
+}
+
+.signoffName {
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    color: #ddd9d2;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.signoffName span {
+    border-right: 3px solid #ddd9d2;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+
+.timeStamp {
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    color: #ddd9d2;
+    text-shadow: none;
+    margin-top: -20px;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+
+@media (max-width: 576px) {
+    .connect h1{
+        font-size: 65px;
+    }
+
+    .signoff h2{
+        font-size: 20px;
+    }
+
+    .connect h2{
+        font-size: large;
+        font-weight: 500;
+    }
+}
+
+/* Small devices (landscape phones, < tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+/* Extra large devices (large desktops, 4K) */
+@media (min-width: 1201px) {
+
+  
+}

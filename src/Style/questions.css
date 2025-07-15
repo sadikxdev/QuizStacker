@@ -1,0 +1,140 @@
+.questionform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.questionform h2 {
+    width: 75%;
+    text-align: center;
+    color: #ddd9d2;
+}
+
+
+
+.questionform h3 {
+    width: 75%;
+    text-align: center;
+    color: #ddd9d2;
+}
+
+.scorecard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.scorecard p {
+    font-size: larger;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.optionButton {
+    min-height: 50px;
+    min-width: 100px;
+    color: #ddd9d2;
+    background: linear-gradient(to bottom,
+            #2f2f2f,
+            #4e453d);
+    font-family: 'Familjen Grotesk';
+    border: 1px solid #ddd9d2;
+    border-radius: 12px;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(221, 217, 210, 0.5);
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+/* .optionButton:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 8px rgba(221, 217, 210, 0.7);
+} */
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.loadingtext {
+    color: #ddd9d2;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Familjen Grotesk';
+}
+
+
+
+@media (max-width: 576px) {
+    .questionform{
+        padding-top: 150px;
+    }
+    .questionform h3{
+        font-size: 18px;
+    }
+    .scorecard{
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: none;
+    }
+    .questionform h2{
+        font-size: 20px;
+    }
+
+    .options{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .optionButton{
+        min-width: 40vw;
+        max-width: 80vw;
+    }
+}
+
+/* Small devices (landscape phones, < tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .scorecard{
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: none;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+/* Extra large devices (large desktops, 4K) */
+@media (min-width: 1201px) {
+
+  
+}

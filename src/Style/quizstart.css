@@ -1,0 +1,80 @@
+.header2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ddd9d2;
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.header2 h1 {
+    font-size: 50px;
+    user-select: none;
+}
+
+.category {
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Familjen Grotesk';
+    text-align: center;
+    font-size: 20px;
+    color: #ddd9d2;
+   background: linear-gradient(to bottom,
+  #2f2f2f,   
+  #4e453d    
+);
+
+    font-weight: 900;
+    box-shadow: 0px 2px 4px rgba(221, 217, 210, 0.5);
+    transition: all 0.4s ease;
+    user-select: none;
+}
+
+.category:hover {
+    box-shadow: 0px 4px 8px rgba(221, 217, 210, 0.6);
+}
+
+.category option {
+    font-size: 20px;
+    color: #1a1816;
+    font-weight: 300;
+}
+
+.selectHead {
+    font-size: 20px;
+}
+
+.startBTN2 {
+    margin-top: 100px;
+}
+
+
+
+
+/* Responsive */
+
+/* Very Small Devices Mobile Phones */
+@media (max-width: 576px) {
+
+    .header2{
+        padding-top: 250px;
+    }
+
+.header2 h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+}
+
+/* Small devices (landscape phones, < tablets) */
+@media (min-width: 577px) and (max-width: 768px) {}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+/* Extra large devices (large desktops, 4K) */
+@media (min-width: 1201px) {}

@@ -80,7 +80,7 @@ function About() {
                     initial={{ opacity: 0, y: 80 }}
                     whileInView={{ opacity: 1, y: 10 }}
                     transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6}}
-                    viewport={{ amount: 0.6, once: true }}
+                    viewport={{ amount: 0.1, once: true }}
                 >
                     <a href="#home" className="navigate navgate1">
                         <div className="startBTN">

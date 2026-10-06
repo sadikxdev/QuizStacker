@@ -52,7 +52,7 @@ function Footer() {
                 transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
                 viewport={{ amount: 0.4, once: true }}
             >
-                <a href="https://x.com/sadikxdev18/" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/sadikk018/" target="_blank" rel="noopener noreferrer">
                     <img src={process.env.PUBLIC_URL + "/images/twitter.png"} className="qimg" alt="X" />
                 </a>
             </motion.div>

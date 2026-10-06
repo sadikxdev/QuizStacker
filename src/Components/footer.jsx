@@ -41,7 +41,7 @@ function Footer() {
                 transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
                 viewport={{ amount: 0.4, once: true }}
             >
-                <a href="https://www.instagram.com/sadikxdev18/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/sadikk018/" target="_blank" rel="noopener noreferrer">
                     <img src={process.env.PUBLIC_URL + "/images/instagram.png"} className="qimg noimg" alt="Instagram" />
                 </a>
             </motion.div>
